@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c6c6991-62ce-4c2f-98c1-6874bd520e18" name="Changes" comment="">
+    <list default="true" id="0c6c6991-62ce-4c2f-98c1-6874bd520e18" name="Changes" comment="Primeiro Commit(Tem ainda algumas mudanças a serem feitas)">
       <change afterPath="$PROJECT_DIR$/.idea/Livraria_Python.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -81,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primeiro Commit(Tem ainda algumas mudanças a serem feitas)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeiro Commit(Tem ainda algumas mudanças a serem feitas)" />
   </component>
 </project>

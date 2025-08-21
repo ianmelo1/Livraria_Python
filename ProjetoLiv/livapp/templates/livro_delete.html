@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Remoção de Livros
+{% endblock title %}
+
+{% block tituloPagina %}
+Remoção de Livros
+{% endblock tituloPagina %}
+
+{% block content %}
+<form method="POST">{% csrf_token %}
+    <h4>Tem certeza que quer excluir o livro "{{ livro.titulo }}"?</h4>
+    <br/>
+  <button type="submit" class="btn btn-primary">
+    Remover
+  </button>
+</form>
+
+{% endblock content %}

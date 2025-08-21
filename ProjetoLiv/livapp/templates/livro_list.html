@@ -14,7 +14,9 @@ Listagem de Livros
     <thead>
         <tr>
             <th>Autor</th>
+            <th>Editora</th>
             <th>Titulo</th>
+            <th>Número de Pg</th>
             <th>Ano</th>
             <th>Ação</th>
         </tr>
@@ -23,7 +25,9 @@ Listagem de Livros
         {% for livro in lista %}
         <tr>
             <td>{{ livro.autor }}</td>
+            <td>{{ livro.editora }}</td>
             <td>{{ livro.titulo }}</td>
+            <td>{{ livro.numeroPaginas }}</td>
             <td>{{ livro.anoPublicacao }}</td>
             <td>
                 <a href="{% url 'livro_edit' pk=livro.pk %}">
